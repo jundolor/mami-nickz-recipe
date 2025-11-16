@@ -5,8 +5,9 @@ export default function Header() {
     return (
         <header>
             <img src={mamiNicksLogo} alt="Chef Mami Nickz Icon" />
-            <h1>Chef Mami Nickz</h1>
-            <h2>By Jun Dolor. View my ➡️<a href="https://www.linkedin.com/in/jun-dolor/" target="_blank" rel="noreferrer">LinkedIn profile</a></h2>
+            <h1>Chef Mami Nickz<br />
+                <small>By Jun Dolor. View my ➡️<a href="https://www.linkedin.com/in/jun-dolor/" target="_blank" rel="noreferrer">LinkedIn profile</a></small>
+            </h1>
         </header>
     )
 }
