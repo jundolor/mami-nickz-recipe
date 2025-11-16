@@ -35,7 +35,7 @@ export default function Main(){
         const flag = 0;
         
         try {
-            if(flag === 10){
+            if(flag === 0){
                 // This is where the frontend waits for the backend Netlify function
                 recipeMarkdown = await getRecipeFromChefClaude(ingredients);
             } else {
